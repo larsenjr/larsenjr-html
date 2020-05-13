@@ -35,7 +35,6 @@ body, html {
     .site-header {
         background-color: #0a5c1d;
         border-bottom: 1px solid #c8d4e0;
-        border-top: 1px solid #c8d4e0;
         min-height: auto;
         position: center;
     }
@@ -51,7 +50,7 @@ body, html {
         position:relative;
         overflow: auto;
         background-color:#0a5c1d ;
-        font-size: 40px;
+        font-size: 1.2vw;
         margin:auto;
       }
 
@@ -61,7 +60,7 @@ body, html {
         text-align: center;
         padding: 20px;
         text-decoration: none;
-        font-size: 22px;
+        font-size: 1.2vw;
         margin:auto;
     }
     
@@ -81,7 +80,7 @@ body, html {
         overflow: auto;
         color: Black;
         text-decoration: none;
-        font-size: 2vw;
+        font-size: 1.2vw;
         margin: auto;
     }
 
@@ -115,7 +114,7 @@ body, html {
     width: 100%;
     left: 0;
     bottom: 0;
-    font-size: 12px;
+    font-size: 0.7vw;
     float: center;
     text-align: center;
     padding-bottom: 10px;
@@ -127,7 +126,7 @@ body, html {
     width: 100%;
     left: 0;
     bottom: 0;
-    font-size: 12px;
+    font-size: 0.7vw;
     float: center;
     text-align: center;
     padding-bottom: 10px;
@@ -149,7 +148,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 0rem;
 }
 h1, .h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
 }
 h2, .h2 {
@@ -159,12 +158,16 @@ h3, .h3 {
     font-size: 1vw;
 }
 
-.p, p {
-    font-family: 'Alef, Nunito,Roboto,sans-serif';
-    font-size: 20px;
+.p {
+    font-family:Alef, Nunito,Roboto,sans-serif;
+    font-size: 1vw;
     margin-bottom: 12px;
     color:white;
-
+    text-align: center;
+}
+p{
+    font-family:Alef, Nunito,Roboto,sans-serif;
+    font-size: 1vw
 }
 ul, .ul, li, .li {
     font-family:Alef, Nunito,Roboto,sans-serif ;
@@ -213,12 +216,12 @@ a:hover {
 
 .columnbox {
     float:left;
-    width: 25%;
-    padding: 0 10px;
+    width: 50%;
+    padding:2 10px;
 }
 .infocard {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 2px;
     text-align: center;
     color:white;
 }
@@ -234,14 +237,13 @@ a:hover {
     padding: 20px;
 }
 .front-row {
-    background-color:#0a5c1d transparent;
+    background-color:transparent;
     float:left;
     width: 33.33%;
     margin:auto;
     padding: 20px;
 }
 .front-row:after {
-    background-color: black;
     box-shadow: white;
     content:"";
     display:table;
